@@ -1,0 +1,23 @@
+{
+  "user1": {
+    "email": "andresagustin998@gmail.com",
+    "password": "whiteNoise.123",
+    "name": "Agustin",
+    "lastName": "Andres"
+  },
+  "invalidUser": {
+    "email": "invalidUser@invalid.com",
+    "password": "invalid"
+  },
+  "newUser": {
+    "firstname": "John",
+    "lastname": "Doe",
+    "password": "ValidPass123"
+  },
+  "existingUser": {
+    "firstname": "Jane",
+    "lastname": "Doe",
+    "email": "jane.doe@example.com",
+    "password": "ValidPass123"
+  }
+}

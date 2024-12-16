@@ -1,0 +1,25 @@
+{
+  "name": "idelsoftchallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:regression": "cypress run --spec 'cypress/e2e/**/*.ts' --browser chrome",
+    "test:open": "cypress open",
+    "test:firefox-headed": "cypress run --browser firefox --headed",
+    "test:firefox-headless": "cypress run --headless  --browser firefox",
+    "test:chrome-headless": "cypress run --headless --browser chrome",
+    "test:chrome-headed": "cypress run --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cypress": "1.1.6",
+    "@types/node": "22.10.2",
+    "cypress": "13.16.1",
+    "dotenv": "16.4.7",
+    "envalid": "8.0.0",
+    "typescript": "5.7.2"
+  }
+}
